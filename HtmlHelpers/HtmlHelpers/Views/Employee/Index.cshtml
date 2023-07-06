@@ -1,0 +1,22 @@
+﻿@model HtmlHelpers.Models.Employee
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@Html.DropDownListFor(emp => emp.Gender,
+                    new SelectList(Enum.GetValues(typeof(HtmlHelpers.Models.Gender))),
+                    "Select Gender",
+                    new { @class = "form-control" })
+@Html.DropDownList("Department",
+                   (IEnumerable<SelectListItem>)ViewBag.Departments,
+                    "Select Department",
+                    new { @class = "form-control" })
+
+Male: @Html.RadioButton("Gender", "Male")
+Female: @Html.RadioButton("Gender", "Female")
+<br />
+Tick Checkbox : @Html.CheckBoxFor(m => m.isActive)
+

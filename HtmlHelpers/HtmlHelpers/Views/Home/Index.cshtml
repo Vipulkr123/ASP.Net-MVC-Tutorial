@@ -1,0 +1,11 @@
+﻿@model HtmlHelpers.Models.Employee
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    @Html.LabelFor(x => x.EmployeeName)
+    @Html.TextBox("EmployeeName", null, new { @class = "form-control" })
+    @Html.LabelFor(x => x.City)
+    @Html.TextArea("Address", null, new { @class = "form-control" })
+</main>

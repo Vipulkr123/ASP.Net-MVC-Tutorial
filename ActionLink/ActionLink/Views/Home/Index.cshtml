@@ -1,0 +1,23 @@
+﻿@model ActionLink.Models.Employee
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <dl class="dl-horizontal">
+    </dl>
+</div>
+
+<div>
+    <h4>Name : @Model.Name</h4>
+    <h4>City : @Model.City</h4>
+    <h4>Address : @Model.Address</h4>
+    <h4>Salary : @Model.Salary</h4>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testingForpull", "testingForpull\testingForpull.csproj", "{C82C7C1C-CFB7-47DC-996D-F0797CAA881D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C82C7C1C-CFB7-47DC-996D-F0797CAA881D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82C7C1C-CFB7-47DC-996D-F0797CAA881D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82C7C1C-CFB7-47DC-996D-F0797CAA881D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82C7C1C-CFB7-47DC-996D-F0797CAA881D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6F9128D-2798-4100-B67A-D8A947C941A0}
+	EndGlobalSection
+EndGlobal
